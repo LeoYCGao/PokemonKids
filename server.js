@@ -11,7 +11,7 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.set('port', (process.env.PORT || 18080));
+app.set('port', 80);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 

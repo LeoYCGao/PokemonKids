@@ -37,11 +37,16 @@
                 0% { transform: rotate(0deg); }
                 100% { transform: rotate(360deg); }
             }
+
+            #testbutton {
+                margin: 50px;
+                font-size: 20px
+            }
         </style>
     </head>
 
     <body>
-    <img width="200px" src="img/timg.gif"/>
+        <img width="200px" src="img/timg.gif"/>
         <h1>Pokemon Wikipedia coming soon</h1>
         <img width="600px" src="img/Pokemon.jpg"/>
         <img width="200px" src="img/pikachu.jpeg"/>
@@ -50,5 +55,11 @@
             <a href="M0916.html">On this website you can learn about Pokemon and how to become a better trainer</a>
         </div>
         <div id="loader"></div>
+        <button onclick="showAlert()" id="testbutton">Click Me!</button>
     </body>
+    <script>
+        function showAlert() {
+            window.open("L0916.html")
+        }
+    </script>
 </html>
